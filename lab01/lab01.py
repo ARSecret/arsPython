@@ -1,7 +1,5 @@
 import math
 import sys
-
-
 def read_number():
     try:
         x = float(input())
@@ -11,7 +9,7 @@ def read_number():
     return x
 
 
-print('Распашнов А.А. ИУ5Ц-54Б')
+print('Распашнов Артем.Алексеевич. ИУ5Ц-54Б')
 if len(sys.argv) == 4:
     try:
         a = float(sys.argv[1])
